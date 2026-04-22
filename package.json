@@ -1,0 +1,177 @@
+{
+  "name": "cs1380-stencil",
+  "version": "0.2.33",
+  "description": "A library for building distributed systems.",
+  "main": "distribution.js",
+  "useLibrary": false,
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-n": "^16.6.2",
+    "javascript-obfuscator": "^4.1.0",
+    "jest": "^27.4.7",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "test": "./scripts/test.sh",
+    "lint": "./scripts/lint.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@brown-ds/distribution": "^0.2.33",
+    "html-to-text": "^9.0.5",
+    "jsdom": "^20.0.3",
+    "yargs": "^17.7.2"
+  },
+  "report": [
+    {
+      "milestone": "M1",
+      "hours": 5,
+      "loc": 475,
+      "dev": {
+        "cpu-no": 8,
+        "mem-gb": 4,
+        "ssd-gb": 59
+      },
+      "throughput": {
+        "dev": [],
+        "aws": []
+      },
+      "latency": {
+        "dev": [
+          0.000492,
+          0.000556,
+          0.000524,
+          0.000915,
+          0.050999,
+          0.055684
+        ],
+        "aws": [
+          0.001332,
+          0.001362,
+          0.001575,
+          0.002665,
+          0.118042,
+          0.126094
+        ]
+      },
+      "dloc": 303
+    },
+    {
+      "milestone": "M2",
+      "hours": 8,
+      "loc": 766,
+      "dev": {
+        "cpu-no": 8,
+        "mem-gb": 4,
+        "ssd-gb": 59
+      },
+      "throughput": {
+        "dev": [
+          8383,
+          13995
+        ],
+        "aws": []
+      },
+      "latency": {
+        "dev": [
+          0.1193,
+          0.5655,
+          0.0715,
+          0.4378
+        ],
+        "aws": []
+      },
+      "dloc": 766
+    },
+    {
+      "milestone": "M3",
+      "hours": 14,
+      "loc": 1266,
+      "dev": {
+        "cpu-no": 8,
+        "mem-gb": 4,
+        "ssd-gb": 59
+      },
+      "throughput": {
+        "dev": [
+          0.02024
+        ],
+        "aws": [
+          6.65
+        ]
+      },
+      "latency": {
+        "dev": [
+          0.04941,
+          0.05215
+        ],
+        "aws": [
+          0.15033,
+          0.15621
+        ]
+      },
+      "dloc": 500
+    },
+    {
+      "milestone": "M4",
+      "hours": 5,
+      "loc": 300,
+      "dev": {
+        "cpu-no": 8,
+        "mem-gb": 4,
+        "ssd-gb": 59
+      },
+      "throughput": {
+        "dev": [
+          2059.07,
+          2357.227
+        ],
+        "aws": [
+          28.106,
+          28.622
+        ]
+      },
+      "latency": {
+        "dev": [
+          0.000485,
+          0.000424
+        ],
+        "aws": [
+          0.035577,
+          0.034936
+        ]
+      },
+      "dloc": 300
+    },
+    {
+      "milestone": "M5",
+      "hours": 12,
+      "loc": 420,
+      "dev": {
+        "cpu-no": 8,
+        "mem-gb": 3.83,
+        "ssd-gb": 59
+      },
+      "throughput": {
+        "dev": [
+          3026.24
+        ],
+        "aws": []
+      },
+      "latency": {
+        "dev": [
+          59.48,
+          54.911,
+          102.014
+        ],
+        "aws": []
+      },
+      "dloc": 420
+    }
+  ]
+}
